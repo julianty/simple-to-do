@@ -1,10 +1,13 @@
-import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
-import "./App.css";
+import { MantineProvider } from "@mantine/core";
 
+import { Box } from "@mantine/core";
+import "@mantine/core/styles.css";
 function App() {
-  return <>Hello World</>;
+  return (
+    <MantineProvider>
+      <Box bg="red.5">A box</Box>
+    </MantineProvider>
+  );
 }
 
 export default App;
