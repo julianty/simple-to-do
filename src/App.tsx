@@ -1,4 +1,4 @@
-import { initializeApp } from "firebase/app";
+// import { initializeApp } from "firebase/app";
 
 import "@mantine/core/styles.css";
 import { MantineProvider, Stack, Group, ActionIcon } from "@mantine/core";
@@ -7,16 +7,16 @@ import ToDoCard from "./components/ToDoCard";
 import { IconPlus } from "@tabler/icons-react";
 
 // TODO: Put into .env file
-const firebaseConfig = {
-  apiKey: "AIzaSyBSbhodvsr3A1ftaY7ZzPoY8ynV2iGDg64",
-  authDomain: "simple-to-do-1765a.firebaseapp.com",
-  projectId: "simple-to-do-1765a",
-  storageBucket: "simple-to-do-1765a.appspot.com",
-  messagingSenderId: "1080345089585",
-  appId: "1:1080345089585:web:0a199d0e17740b7446e710",
-};
+// const firebaseConfig = {
+//   apiKey: "AIzaSyBSbhodvsr3A1ftaY7ZzPoY8ynV2iGDg64",
+//   authDomain: "simple-to-do-1765a.firebaseapp.com",
+//   projectId: "simple-to-do-1765a",
+//   storageBucket: "simple-to-do-1765a.appspot.com",
+//   messagingSenderId: "1080345089585",
+//   appId: "1:1080345089585:web:0a199d0e17740b7446e710",
+// };
 
-const app = initializeApp(firebaseConfig);
+// const app = initializeApp(firebaseConfig);
 
 function App() {
   return (
